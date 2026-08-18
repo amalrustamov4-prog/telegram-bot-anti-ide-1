@@ -1,0 +1,31 @@
+# Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Databases & Session Files (Sensitive)
+*.db
+*.sqlite3
+*.session
+*.session-journal
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary & Progress Files
+migration_progress.json
